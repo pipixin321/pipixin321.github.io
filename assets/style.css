@@ -1,0 +1,111 @@
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Helvetica, Ariel, sans-serif;
+  font-size: 15px;
+}
+
+a,
+a:visited {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+li {
+  margin: 2px 0;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+span.me {
+  color: #000000;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+div.title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+div.author {
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+div.author a:link,
+div.author a:visited {
+  color: #777777;
+  text-decoration: None;
+}
+div.author a:hover {
+  color: #f09228;
+  text-decoration: None;
+}
+div.material {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+div.award {
+  color: #FF0000;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+div.institution {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+div.period {
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+div.position {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* 定义一个类来设置容器的样式 */
+.circle-mask {
+  width: 250px; /* 图片的宽度 */
+  height: 250px; /* 设定高度与宽度相同以形成圆 */
+  border-radius: 50%; /* 将方形转变为圆形 */
+  overflow: hidden; /* 隐藏容器外的部分 */
+  display: flex; /* 使用flex布局使内容居中 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.circle-mask img {
+  max-width: 100%; /* 确保图片最大宽度不超过容器 */
+  height: auto; /* 保持图片原有的长宽比 */
+}
