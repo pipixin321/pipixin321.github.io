@@ -260,6 +260,28 @@ render_project(
     award_name = null,
 );
 
+render_project(
+    project_name = 'HolmesVAU',
+    figure_path = './assets/projects/HolmesVAU.png',
+    title_name = 'Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity',
+    author_list = [
+        'Huaxin Zhang',
+        'Xiaohao Xu',
+        'Xiang Wang',
+        'Jialong Zuo',
+        'Xiaonan Huang',
+        'Changxin Gao',
+        'Shanjun Zhang',
+        'Li Yu',
+        'Nong Sang'
+    ],
+    material_list = [
+        ['arXiv', 'https://arxiv.org/pdf/2412.06171'],
+        ['Code', 'https://github.com/pipixin321/HolmesVAU'],
+    ],
+    award_name = null,
+);
+
 
 
 
@@ -289,3 +311,4 @@ render_author('Gang Zhang', '');
 render_author('Zechao Li', 'https://scholar.google.com.hk/citations?hl=zh-CN&user=L6J2V3sAAAAJ');
 render_author('Jingdong Wang', 'https://jingdongwang2017.github.io/');
 render_author('Jialong Zuo', 'https://scholar.google.com.hk/citations?hl=zh-CN&user=R5OWszMAAAAJ');
+render_author('Li Yu', '');
