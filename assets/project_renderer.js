@@ -276,7 +276,7 @@ render_project(
         'Nong Sang'
     ],
     material_list = [
-        ['arXiv', 'https://arxiv.org/pdf/2412.06171'],
+        ['CVPR 2025', 'https://arxiv.org/pdf/2412.06171'],
         ['Code', 'https://github.com/pipixin321/HolmesVAU'],
     ],
     award_name = null,
