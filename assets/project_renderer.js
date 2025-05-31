@@ -283,6 +283,25 @@ render_project(
 );
 
 
+render_project(
+    project_name = 'Customizable-VLM',
+    figure_path = './assets/projects/Customizable-VLM.png',
+    title_name = 'Customizing Visual-Language Foundation Models for Multi-Modal Anomaly Detection and Reasoning',
+    author_list = [
+        'Xiaohao Xu',
+        'Yunkang Cao',
+        'Huaxin Zhang',
+        'Nong Sang',
+        'Xiaonan Huang'
+    ],
+    material_list = [
+        ['CSCWD 2025', 'https://arxiv.org/pdf/2403.11083'],
+        ['Code', 'https://github.com/Xiaohao-Xu/Customizable-VLM'],
+    ],
+    award_name = 'Best Student Paper Award',
+);
+
+
 
 
 // Authors.
@@ -312,3 +331,5 @@ render_author('Zechao Li', 'https://scholar.google.com.hk/citations?hl=zh-CN&use
 render_author('Jingdong Wang', 'https://jingdongwang2017.github.io/');
 render_author('Jialong Zuo', 'https://scholar.google.com.hk/citations?hl=zh-CN&user=R5OWszMAAAAJ');
 render_author('Li Yu', '');
+render_author('Yunkang Cao', 'https://caoyunkang.github.io/');
+
