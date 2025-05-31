@@ -212,7 +212,7 @@ render_project(
         ['ICME 2025', 'https://arxiv.org/pdf/2403.06154'],
         ['Code', 'https://github.com/pipixin321/GlanceVAD'],
     ],
-    award_name = null,
+    award_name = 'Oral',
 );
 
 render_project(
